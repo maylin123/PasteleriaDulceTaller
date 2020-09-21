@@ -1,0 +1,805 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+/*PAGINA PRINCIPAL*/
+/*Body page principal*/
+body{
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    width: 80%;
+    height: 100%;
+}
+.encab{
+float: left;
+width: 20%;
+height: 80px;
+align-items: left;
+}
+
+.padd{
+    padding-top: 20px;
+}
+/*Menu de opciones encabezado*/
+.menur
+{
+float:right;
+width: 70%;
+height: 80px;
+margin:0;
+text-align: center;
+font: normal;
+font-size: 30px;
+}
+
+/*Selectores por elemento*/
+
+.menur ul{
+    float: right;
+}
+.menur ul a 
+{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.menu{
+    width: 100%;
+    height: 80px;
+    background-color: #F737C8;
+    background:#F737C8
+}
+/*Selector universal*/
+footer.foodPrin {
+position: relative;
+width: 92%;
+height: 80px;
+padding: 50px;
+margin: -10px;
+clear: both;
+background-color: #454043;
+color: #F737C8;
+text-align: center;
+}
+
+/*Selector por clase, pagina principal*/
+.principal{
+    width: 100%;
+    height: 1300px;
+
+}
+/*Apartado left*/
+.apartado{
+width: 40%;
+height: 100%;
+float: left;
+text-align: center;
+color: #343536;
+}
+
+
+.apartado div 
+{
+width: 50%;
+height: 60%;
+padding-top: 30px;
+margin: auto;
+font: bold;
+font-size: 25px;
+}
+
+/*Selector por clase y luego elemento*/
+.apartado img{
+    width: 80px;
+    height: 100px;
+    margin: auto;
+    margin-top: 130px;
+    
+}
+
+/*Selector por id y luego elemento td*/
+#menu-lateral{
+    list-style: none;
+    box-shadow: 1px 1px 7px #dadada;
+}
+
+#menu-lateral li{
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid #efefef;
+}
+
+#menu-lateral li a{
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    color: #343536;
+    
+}
+/*Selector por id y luego elemento td adicional haciendo un hover sobre el td*/
+#menu-lateral li a:hover{
+    background-color: #454043;
+    color: #F737C8;
+}
+
+
+.img img
+{
+width: 576px;
+height: 324px;
+margin: auto;
+}
+
+/*Propiedades para el div img*/
+.imagen 
+{
+    width: 75%;
+    height: auto;
+    margin:auto;
+    padding-top: 120px;
+    font: bold;
+    font-size: 25px;
+    float: left;
+    margin: auto;
+    margin-bottom: 20px;
+
+    
+}
+
+.imagen img{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*Apartado para article*/
+article {
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+
+article div h3{
+    text-align: center;
+}
+
+.parrafo{
+    width: 70%;
+    height:600px;
+    float: left;
+    text-align: justify;
+    padding:10px;
+    margin:auto;
+    font: normal;
+    font-size: 18px;
+}
+
+/*Pie de la pagina principal*/
+
+
+.grid-header{
+    grid-column: 1 7 span 3;
+    background-color: #F737C8;;
+    text-align: center;
+    float: top;
+    width: 100%;
+}
+
+
+/*FOMULARIO*/
+/*Tamaño principal del formulario*/
+.form{
+width: 80%;
+height: 50px;
+float: center;
+}
+/*Se aplican a todos los elementos a de la clase menu*/
+.menu a{
+    font-size: 30px;
+    color: white;
+}
+
+.cuerpo{
+    width: 100%;
+    height: 100%;
+}
+
+.fregistrar{
+    width: 100%;
+    height: 850px;
+    background-color: #F9DFF9;
+    color: white;
+}
+
+.grid-mein{
+  background-color: darkcyan;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+    padding: 20px;
+    margin:auto;
+    border-radius: 4px;
+    font-family: calibri;
+
+}
+
+/*Se aplica a todos los elementos h3 de la clase grid-main*/
+.grid-mein h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.grid-main{
+    background-color:#24304c;
+    color: white;
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    height: 500px;
+    width: 400px;;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: calibri;
+    color: white;
+    border: 1px solid #020b30;
+    box-shadow: 1px 1px 10px #191717;
+}
+
+.fregistrar h3{
+font-size: 22px;
+margin-bottom: 20px;
+margin: auto;
+padding: 0;
+}
+/*Propiedades para gridData*/
+.gridData{
+    width: 100%;
+    height: 50px;
+    background-color: #24303c;
+    padding: 12px;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    margin-bottom: 16px;
+    border:1px solid #1656A6;
+    font-family: Cambria;
+    font-size: 18px;
+    color: white;
+}
+/*Selector por elemento*/
+.fregistrar p{
+    height: 40px;
+text-align: center;
+font-size: 18px;
+}
+/*Selector por elemento*/
+.fregistrar a{
+    color:white;
+    text-decoration: none;
+}
+/*Hover para los elementos a de la clase fregistrar*/
+.fregistrar a :hover {
+color: white;
+text-decoration: underline;
+}
+/*Elemento p de la clase fregistrar*/
+.fregistrar p {
+height: 40px;
+text-align: center;
+font-size: 18px;
+}
+/*Selector por clases*/
+.fregistrar .botons{
+width: 100%;
+background-color: #1656A6;
+border: none;
+padding: 10px;
+color: white;
+margin:5px 0px 20px 0px;
+font-size: 16px;
+}
+
+
+/*LOGIN*/
+/*Login principal en esta parte se le da estilo a el login principal*/
+.grid-login{
+    background-color:#020B30;
+    color: white;
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    height: 400px;
+    width: 300px;;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: calibri;
+    color: white;
+    border: 1px solid #020b30;
+    box-shadow: 1px 1px 10px #191717;
+}
+}
+/*Selector por clase*/
+.form-login{
+    color: white;
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    height: 300px;
+    width: 300px;;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-family: calibri;
+    color: white;
+    padding-top: 30px;
+}
+/*Selector por clase*/
+.gridD{
+    width: 100%;
+    height: 50px;
+    background-color: #020B30;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    margin-bottom: 16px;
+    border: 0;
+    border-bottom: 1px solid white;
+    font-family: Cambria;
+    font-size: 15px;  
+    color: white; 
+}
+
+.check1{
+padding-top: 40px;
+}
+/*Propiedades para el boton*/
+.boton
+{
+    width: 100%;
+    background-color: #1656A6;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin:5px 0px 20px 0px;
+    font-size: 16px;
+}
+/*Utilizamos la clase overf para ayudar a dar las propiedades de hover al elemento a*/
+.overf{
+color: white;
+}
+
+.overf a :hover{
+    color: blue;
+}
+
+
+/*PRODUCTOS*/
+/*Parrafo principal, selector por clase*/
+.divparrafo
+{
+    width: 100%;
+    height:auto;
+    float: left;
+    text-align: center;
+    padding-top:120px;
+    margin:auto;
+    font: normal;
+    font-size: 23px;
+    color: #343536;
+    
+}
+
+
+
+/*Propiedades de la tabla tableprod es selector por tipo ID ya que anteriormente tenemos otras tablas y esto nos ayudara a identificarlas*/
+#tableprod .td1{
+    border:solid 1px #ECEDED;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    font: bold;
+}
+
+/*Selector tipo ID para manipular esta tabla*/
+#tableprod .td2{
+    border:solid 1px #ECEDED;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    font: bold;
+    font-size: 25px;
+}
+
+/*Elemento h6 de la clase td2*/
+.td2 h6 {
+    text-align: left;
+    font: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: #343536;
+}
+/*Elemento p de la clase rd2*/
+.td2 p {
+    text-align: left;
+    font: bold;
+    font-size: 15px;
+    padding: 0px 10px;
+    color: #515256;
+}
+
+.pa{
+    width: 20px;
+    height: 20px;
+    text-align: right;
+    font-size: 15px;
+    padding-left: 10px;
+    color: #F737C8;
+    font-weight: 600;
+}
+
+#tmenu td:hover{
+    background-color: #454043;
+    color: #F737C8;
+}
+
+
+
+
+
+/*PRODUCTOS OPCION 2*/
+/*Selector por id y luego elemento td*/
+
+.principalpag2{
+    margin: auto;
+    width: 100%;
+    height:1400px;
+    text-align: center;
+    background-color:white;
+    margin-top: 80px;
+
+}
+
+.divparrafo{
+    width: 100%;
+    height:auto;
+    text-align: center;
+    padding-top:120px;
+    margin:auto;
+    font: normal;
+    font-size: 23px;
+    color: #343536;
+    display: inline-block;
+}
+
+#productos2{
+    display: block;
+    width: 100%;
+}
+
+.tarjeta-producto{
+  
+    border: 1px solid #efefef;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 4px 2px 10px #847e7e;
+
+}
+
+.tarjeta-producto img{
+    margin: 0 auto;
+    width: 300px;
+}
+
+
+.tarjeta-producto .tarjeta-titulo{
+    display: block;
+    height: 30px;
+}
+
+.tarjeta-producto .tarjeta-titulo h6{
+    float: left;
+    font-size: 20px;
+}
+
+.tarjeta-producto .tarjeta-titulo span{
+    float: right;
+    color: #f737c8;
+    font-weight: 600;
+}
+
+.tarjeta-producto .tarjeta-descripcion{
+    text-align: left;
+    display: block;
+}
+
+.tarjeta-producto .tarjeta-descripcion p{
+    font-size: 16px;
+}
+
+.tableproducto{
+    border:solid 1px #ECEDED;
+    width: 400;
+    height: 200px;
+    text-align: center;
+    font: bold;
+    display: inline-block;
+    margin: auto;
+}
+
+/*
+.tableproducto .tdP1{
+    border:solid 1px black;
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    font: bold;
+    display: inline-block;
+    margin: auto;
+}*/
+
+
+
+#tableproducto .tdP1{
+    border:solid 1px black;
+    width: 1400px;
+    height: 300px;
+    text-align: center;
+    font: bold;
+  
+
+}
+
+.tdP1 h6{
+    text-align: left;
+    font: bold;
+    font-size: 20px;
+    padding: 0px;
+    color: #343536;
+}
+
+.tdP1 p {
+    text-align: left;
+    font: bold;
+    font-size: 15px;
+    padding: 0px 10px;
+    color: #515256;
+}
+
+.prod
+{
+    padding-top: 100px;
+}
+
+/*Paginas adicionales de compras*/
+
+.menuCompras
+{
+    width: 100%;
+    height: 80px;
+    background-color: #F737C8;
+    border:solid 1px black;
+    background: linear-gradient(#F737C8, #8D898B);   
+}
+
+.titleP{
+color: white;
+font-size:30px;
+}
+
+.menuCompras ul{
+    float: right;
+}
+.menuCompras ul a 
+{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 10px;
+
+}
+
+.contenedor
+{
+width: 80%;
+height: 100%;
+margin: auto;
+padding: 50px;
+}
+
+footer.catP {
+    position: relative;
+    width: 100%;
+    clear: both;
+    background-color: #454043;
+    color: #F737C8;
+    text-align: center;
+    }
+
+
+.foomonitoreo
+{
+    position: relative;
+    width: 100%;
+    clear: both;
+    background-color: #454043;
+    color: #F737C8;
+    text-align: center;
+}
+
+.contmonitoreo{
+width: 80%;
+height: 100%;
+margin: auto;
+
+}
+
+.monOC{
+    color: black;
+    padding-left: 10%;
+    font-size: 20px;
+    position: relative;
+}
+
+.new{
+padding-top: 50px;
+font-size: 15px;
+color: #454043;
+height: 50%;
+}
+
+.menumon{
+    width: 100%;
+    height: 80px;
+    font-size: 18px;
+    color: black;
+    background: linear-gradient(#F737C8, #F737C8);
+}
+
+.color{
+    color: black;
+}
+
+.dato{
+width: 30%;
+}
+
+.btnoc{
+    
+    align-items: center; 
+    background: #F737C8;
+    border: 1px solid #F737C8;
+}
+
+.btnmon{
+    width: 20%; 
+    text-align: center;
+}
+
+@media (max-width: 1024px){
+	#navbarSupportedContent{
+		z-index: 10;
+		background: #fff;
+		padding: 10px;
+		border: 1px solid #eee;
+	}
+	
+	.encab {
+    width: auto;
+    margin-top: -8px
+}
+
+
+
+/*Responsive los elementos van a cambiar de tamaño al llegar a un tamaño de 767px en la cual se podra visualizar tambien en un celular*/
+@media (max-width: 995px){
+    /*Elemento a, ul de la clase menur*/
+    .menur ul a {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .encab {
+        width: auto;
+
+    }
+    .form {
+        width: 70%;
+        float: right;
+    }
+    .menu a {
+        font-size: 20px;
+        color: white;
+        transform: translateY(40%);
+        display: block;
+    }
+    /*div principal*/
+    .principal{
+        height: auto;
+    }
+    .apartado {
+        width: 100%;
+        height: auto;
+    }
+
+    .apartado div{
+        width: calc(100% - 20px);
+        padding: 10px;
+        height: auto;
+    }
+
+    article{
+        width: calc(100% - 20px);
+        padding: 10px;
+        height: auto;
+    }
+    /*Se cambiara a la imagen y el parrafo del article*/
+    article .imagen,
+    article .parrafo{
+        width: calc(100% - 20px);
+    }
+
+    .parrafo{
+        height: auto;
+    }
+
+
+    footer{
+        display: inline-block;
+    }
+
+
+    .grid-login{
+        width: calc(95% - 60px);
+    }
+
+    .grid-main{
+        width: calc(95% - 60px);
+    }
+
+    .dato{
+        width: 50%;
+        }
+
+ .btnmon{
+     width: 30%; 
+    text-align: center;
+    }
+    .otro{
+            width: 100%; 
+            text-align: left;
+    }
+}
+
+@media (max-width: 330px){
+.container{
+    width: 100%;
+    background-color: violet;
+    
+}
+.contmonitoreo{
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    
+    }
+
+.dato{
+    width: 100%;
+    }
+
+}
